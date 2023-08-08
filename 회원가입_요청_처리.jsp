@@ -13,7 +13,7 @@
 <!-- 
 	request 메서드 :
 	getParameter(String name) 해당 name 속성의 파라미터 값 리턴
-	getParameterVAlues(String name) 해당 anme 속성의 파라미터의 모든 값 리턴
+	getParameterValues(String name) 해당 name 속성의 파라미터의 모든 값 리턴
  -->
  
 아이디 : <%= request.getParameter("id") %> <br>
